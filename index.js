@@ -15,3 +15,8 @@ app.listen(app.get('port'), function() {
 app.set('/', function(request, response) {
   response.send('test')
 })
+
+
+app.set('/', function(request, response) {
+  response.send('test2')
+})
