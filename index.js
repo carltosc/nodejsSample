@@ -15,5 +15,3 @@ app.listen(app.get('port'), function() {
 app.set('/', function(request, response) {
   response.send('testing')
 })
-
-app.send()
